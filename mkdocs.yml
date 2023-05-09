@@ -1,0 +1,93 @@
+site_name: Руководство по вкатыванию в Backend на Java
+repo_name: EightM/JavaBackendStartGuide
+repo_url: https://github.com/EightM/JavaBackendStartGuide
+site_url: https://lasteris.github.io/JavaBackendStartGuide
+edit_uri: edit/develop/docs/
+copyright: Copyright &copy; 2022 - 2023 EightM
+theme:
+  favicon: images/favicon.png
+  icon:
+    repo: fontawesome/brands/github
+    logo: material/language-java
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  language: ru
+  name: material
+  features:
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    - navigation.footer
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+      lang: ru
+  - git-revision-date-localized:
+      enable_creation_date: true
+extra:
+  version:
+    provider: mike
+  social:
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/javastart
+      name: Чат для начинающих
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/javachats
+      name: Java Чат
+    - icon: fontawesome/brands/telegram
+      link: https://t.me/jvmchat
+      name: Pro.JVM Чат
+
+
+nav:
+  - Home: index.md
+  - Введение: why-java.md
+  - Java Core: javacore.md
+  - Java Advanced: javacoreadvanced.md
+  - Вступаем во взрослый мир: 
+    - Старт: hellonewworld.md
+    - Spring Framework: spring-framework.md
+  - Что дальше ?: eventually.md
