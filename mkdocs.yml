@@ -3,6 +3,7 @@ repo_name: EightM/JavaBackendStartGuide
 repo_url: https://github.com/EightM/JavaBackendStartGuide
 site_url: https://lasteris.github.io/JavaBackendStartGuide
 edit_uri: edit/develop/docs/
+homepage: https://lasteris.github.io/JavaBackendStartGuide/why-java
 copyright: Copyright &copy; 2022 - 2023 EightM
 theme:
   favicon: images/favicon.png
