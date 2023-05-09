@@ -1,7 +1,7 @@
 site_name: Руководство по вкатыванию в Backend на Java
 repo_name: EightM/JavaBackendStartGuide
 repo_url: https://github.com/EightM/JavaBackendStartGuide
-site_url: https://lasteris.github.io/JavaBackendStartGuide
+#site_url: https://EightM.github.io/JavaBackendStartGuide
 edit_uri: edit/develop/docs/
 copyright: Copyright &copy; 2022 - 2023 EightM
 theme:
@@ -84,9 +84,11 @@ extra:
 
 nav:
   - Введение: index.md
-  - Java Core: javacore.md
-  - Java Advanced: javacoreadvanced.md
+  - Java Core: java-core.md
+  - Java Advanced: java-core-advanced.md
   - Вступаем во взрослый мир: 
-    - Старт: hellonewworld.md
+    - Вступаем во взрослый мир: hello-new-world.md
     - Spring Framework: spring-framework.md
+    - CI/CD: cicd.md
+    - Контейнеризация: containers.md
   - Что дальше ?: eventually.md
