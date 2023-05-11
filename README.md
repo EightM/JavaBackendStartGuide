@@ -37,10 +37,10 @@ Python 3.7+. Python можно поставить как из пакетного
 
 ### Дополнение для контрибьютеров
 
-Принцип расширения документации не меняется. Пишем, используя [Markdown](https://www.markdownguide.org/) ,  а MkDocs отображает в удобном для нас формате. Чтобы понять принцип, по которому строится навигация сайта, стоит обратить внимание на раздел *nav* в файле *mkdocs.yml* в корне репозитория. Верхний уровень навигации автоматически отображается в части сайта (см. св-во *navigation.tabs*) под заголовком.
+Принцип расширения документации не меняется. Пишем, используя [Markdown](https://www.markdownguide.org/) ,  а [MkDocs](https://www.mkdocs.org/) отображает в удобном для нас формате. Чтобы понять принцип, по которому строится навигация сайта, стоит обратить внимание на раздел *nav* в файле *mkdocs.yml* в корне репозитория. Верхний уровень навигации автоматически отображается в части сайта (см. св-во *navigation.tabs*) под заголовком.
 Визуальное отображение динамически подхватывает изменения, достаточно сохранить редактируемый markdown-файл, зажав в редакторе комбинацию `CTRL + S`.
 [MkDocs](https://www.mkdocs.org/) имеет огромное количество плагинов, интересные подборки можно подсмотреть [тут](https://github.com/mkdocs/best-of-mkdocs) и, конечно же, [тут](https://squidfunk.github.io/mkdocs-material/reference/). 
-Наконец, я бы обратил внимание на разделы Setup и Reference в документации. Там максимально подробно описаны все возмоности [MkDocs](https://www.mkdocs.org/)
+Наконец, я бы обратил внимание на разделы [Setup](https://squidfunk.github.io/mkdocs-material/setup/) и [Reference](https://squidfunk.github.io/mkdocs-material/reference/) в [документации](https://squidfunk.github.io/mkdocs-material/).
 
 
 ## Развертывание онлайн (на платформе Github Pages)
@@ -49,4 +49,4 @@ Python 3.7+. Python можно поставить как из пакетного
 
 **Адрес статической версии сайта**:
 
- `https://EightM.github.io/JavaBackendStartGuide`
+ [https://EightM.github.io/JavaBackendStartGuide](https://EightM.github.io/JavaBackendStartGuide)
