@@ -8,7 +8,7 @@ theme:
   favicon: images/favicon.png
   icon:
     repo: fontawesome/brands/github
-    logo: material/language-java
+    logo: fontawesome/solid/book
   palette:
     - scheme: default
       primary: indigo
