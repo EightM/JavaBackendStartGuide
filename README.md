@@ -49,4 +49,4 @@ Python 3.7+. Python можно поставить как из пакетного
 
 **Адрес статической версии сайта**:
 
- [https://EightM.github.io/JavaBackendStartGuide](https://EightM.github.io/JavaBackendStartGuide)
+ [https://EightM.github.io/JavaBackendStartGuide](https://eightm.github.io/JavaBackendStartGuide/)
