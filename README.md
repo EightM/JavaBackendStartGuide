@@ -1,6 +1,10 @@
 Данный репозиторий содержит инструкцию по вкатыванию в Backend на Java.
 Инструкция описана на языке разметки Markdown. Для генерации использован статический генератор сайтов [MkDocs](https://www.mkdocs.org/). Тема - [MkDocs Material](https://squidfunk.github.io/mkdocs-material/)
 
+**Руководство находится здесь**:
+
+ [https://EightM.github.io/JavaBackendStartGuide](https://eightm.github.io/JavaBackendStartGuide/)
+
 ## Локальное развертывание и отладка
 
 ### Установка Python
@@ -46,7 +50,3 @@ Python 3.7+. Python можно поставить как из пакетного
 ## Развертывание онлайн (на платформе Github Pages)
 
 В папке *github/workflows* расположен файл *ci.yml*. В данном файле описана инструкция для платформы *Github Pages*. Как только изменения попадают в ветку *develop*, публикуется новая статическая версия сайта.
-
-**Адрес статической версии сайта**:
-
- [https://EightM.github.io/JavaBackendStartGuide](https://eightm.github.io/JavaBackendStartGuide/)
