@@ -89,6 +89,7 @@ nav:
   - Вступаем во взрослый мир: 
     - Вступаем во взрослый мир: hello-new-world.md
     - Spring Framework: spring-framework.md
+    - Quarkus: quarkus.md
     - CI/CD: cicd.md
     - Контейнеризация: containers.md
   - Что дальше ?: eventually.md
