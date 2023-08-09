@@ -42,14 +42,22 @@ theme:
     - toc.follow
 
 markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
   - admonition
   - pymdownx.details
-  - pymdownx.superfences
   - attr_list
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
   - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - footnotes
   - md_in_html
   - toc:
@@ -89,6 +97,7 @@ nav:
   - Вступаем во взрослый мир: 
     - Вступаем во взрослый мир: hello-new-world.md
     - Spring Framework: spring-framework.md
+    - Quarkus: quarkus.md
     - CI/CD: cicd.md
     - Контейнеризация: containers.md
   - Что дальше ?: eventually.md
